@@ -8,7 +8,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'pymongo==3.4.0',
+        'pymongo>=3.8',
         'pql==0.4.3'
     ],
     entry_points='''
